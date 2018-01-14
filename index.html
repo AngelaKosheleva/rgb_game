@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Games page</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="title">
+    <p>
+        The game "Choose right"
+    </p>
+</div>
+<div class="rules">
+    How to play: <br>
+    After the game starts you will see a colored rectangle and several buttons with the name of the color in the RGB
+    encoding. <br>
+    You should choose the button with the correct color. If you clicked on the button with the right color, you get 10
+    points, otherwise one point is taken. <br>
+    The game has three difficulty levels - simple: three buttons and three attempts to guess the color, - average: six
+    buttons and four attempts; and complex: nine buttons and only five attempts. If you failed to guess the color for
+    all attempts, you will be shown the correct button and all the encrypted colors.<br>
+</div>
+
+<div class="difficulty">
+    <p><b>Game difficulty</b></p>
+    <input type="radio" name="gameDifficulty" value="1" checked>Easy
+    <input type="radio" name="gameDifficulty" value="2">Medium
+    <input type="radio" name="gameDifficulty" value="3">Hard
+    <br>
+    <br>
+    <input type="button" value="Start" id="start">
+</div>
+
+<p class="count">Your points = <strong id="count">0</strong></p>
+<div id="game">
+    <p>The color you need to guess</p>
+</div>
+
+<div id="buttonsBlock"></div>
+
+<script defer src="script.js"></script>
+</body>
+</html>

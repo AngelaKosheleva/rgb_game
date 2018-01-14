@@ -1,0 +1,49 @@
+body {
+    background-color: khaki;
+}
+
+button {
+    height: 50px;
+    width: 30%;
+    border: 40px;
+    border-radius: 40px;
+    padding: 40px;
+    font-size: medium;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+
+}
+
+#game {
+    width: 50%;
+    height: 60px;
+    border: 30em;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    align-content: center;
+    position: relative;
+    visibility: hidden;
+}
+
+.title {
+    margin: auto;
+    font-family: "Arial Narrow";
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+.difficulty {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.count {
+    text-align: center;
+}
